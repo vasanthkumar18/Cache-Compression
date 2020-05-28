@@ -1,0 +1,5 @@
+8 cache lines of each type were included in the uncompressed data file to get the below result:
+No. of uncompressed lines = 40
+No. of uncompressed bytes = 2.58KB
+No. of compressed bytes= 1.25KB
+Compression Ratio = 2.064
