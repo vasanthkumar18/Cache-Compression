@@ -15,7 +15,7 @@ BASE-DELTA-IMMEDIATE METHOD:
 In this method, input of 256 bits is given to the compressor unit. And outputs like compressed cache line (CCL) and compressible or not
 factor (CON) are obtained.
 
-Compression:
+COMPRESSION:
  • Initially the 32 byte uncompressed Cache line(input UncompCache) is read and stored in input variable. Flag variables (flagX_Y), 
    compressible or not factors (CONX) and delta values (delX_Y) and declared.
  • Flag variable decides whether the delta value obtained is a negative or a positive value and is used to subtract or add to base 
@@ -24,6 +24,6 @@ Compression:
  • Delta values are the differences read between base and the next series occurring in the input data.
  • The final compressed cache line is of the form {Base, followed by delta values}
 
-Decompression:
+DECOMPRESSION:
  • Decompression is all about checking the CON condition and then the Flag variable, do the required arithmetic operation and the 
    display.
