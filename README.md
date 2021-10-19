@@ -7,7 +7,7 @@
 *Implementation of BDI cache line compression algorithm. Code was used to gather performance metrics on the algorithm*
 <br/>
 <br/>
-ABSTRACT
+**ABSTRACT**
 Cache compression is a promising technique to increase on-chip cache capacity and to decrease on-chip and off-chip bandwidth usage. Unfortunately, directly applying well-known compression algorithms (usually implemented in software) leads to high hardware complexity and unacceptable decompression/compression latencies, which in turn can negatively affect performance. Hence, there is a need for a simple yet efficient compression technique that can effectively compress common in-cache data patterns, and has minimal effect on cache access latency.
 <br/>
 <br/>
